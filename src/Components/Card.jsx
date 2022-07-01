@@ -18,12 +18,11 @@ const Card = (props) => {
     <div className='container'>
 
         <div className='card-left'>
-            <ul>
-                <li className='img'>{medium}</li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+           <img src={medium} alt="" />
+           <i>mail</i>
+           <i>tel</i>
+           <i>loc</i>
+
 
         </div>
 
