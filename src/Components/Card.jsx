@@ -11,7 +11,7 @@ const Card = (props) => {
     cell,
     location: { city, country },
     dob: { age },
-    registered: { date },
+    registered: { date }
   } = props;
 
   return (
@@ -43,7 +43,7 @@ const Card = (props) => {
 
       <div className="footer-info">
         <p className="age">Age : {age}</p>
-        <p className="date">Registere Date : {date}</p>
+        <p className="date">Registere Date : {date.substr(0,10)}</p>
       </div>
 
     </div>
