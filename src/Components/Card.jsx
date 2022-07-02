@@ -18,9 +18,9 @@ const Card = (props) => {
     <div className="container">
       <div className="card-header">
         <img className="pic" src={medium} alt="" />
-        <p className="name">
+        <h4 className="name">
           {title} {first} {last}
-        </p>
+        </h4>
       </div>
 
       <div className="user-info">

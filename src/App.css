@@ -1,9 +1,12 @@
 .button{
-  background-color: darkturquoise;
-  width: 8rem;
-  height: 3rem;
-  font-size: 18px;
+  background-color: #DEA090;
+  width: 10rem;
+  height: 4rem;
+  font-size: 20px;
+  font-weight: bold;
   margin-top: 3rem;
+  border-radius: 12px;
+  box-shadow: 4px 4px 6px #EFECCC;
 
 }
 
